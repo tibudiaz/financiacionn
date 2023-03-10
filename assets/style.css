@@ -1,0 +1,59 @@
+/* Establecer el estilo de la tarjeta */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Establecer el borde superior de color verde agua al título */
+  h1 {
+    border-top: 1px solid #7FDBFF;
+    padding-top: 10px;
+  }
+  
+  /* Establecer el borde inferior de color verde agua a los resultados */
+  h2 {
+    border-bottom: 1px solid #7FDBFF;
+    padding-bottom: 10px;
+  }
+  
+  /* Establecer el color del texto en blanco */
+  body, label, input, p {
+    color: white;
+  }
+  #valor{
+    color: black;
+  }
+  /* Establecer el color de fondo y el borde del botón */
+  button {
+    background-color: #7FDBFF;
+    border: 1px solid #7FDBFF;
+  }
+  
+  /* Establecer el color de fondo y el borde del botón al pasar el mouse por encima */
+  button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #7FDBFF;
+  }
+  
+  /* Establecer el ancho máximo del contenido */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.124);
+  }
+  
+  /* Establecer el tamaño de fuente para pantallas pequeñas */
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
